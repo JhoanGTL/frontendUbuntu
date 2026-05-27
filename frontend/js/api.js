@@ -1,4 +1,4 @@
-const BASE_URL = "http://192.168.1.60:8080/api/items"; 
+const BASE_URL = "http://192.168.56.2:8080/api/items"; 
 //  Cambia esta IP por la de tu VM backend
 
 export async function fetchItems() {
