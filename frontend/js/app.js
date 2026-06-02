@@ -28,7 +28,7 @@ function renderItems(items) {
         li.className = "item";
 
         li.innerHTML = `
-            <strong>${item.name}</strong><br>
+            <strong>${item.nombre}</strong><br>
             Precio: $${item.precio}<br>
             Stock: ${item.stock}
         `;
